@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ali Imran Shah - Personal Website">
+    <title>Ali Imran Shah</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background-color: #f4f4f4; color: #333; }
+        header { background: #333; color: #fff; padding: 1rem 0; text-align: center; }
+        nav a { color: #fff; margin: 0 1rem; text-decoration: none; }
+        nav a:hover { text-decoration: underline; }
+        section { padding: 2rem; max-width: 900px; margin: auto; }
+        .projects a { display: block; margin: 0.5rem 0; color: #0066cc; text-decoration: none; }
+        .projects a:hover { text-decoration: underline; }
+        footer { text-align: center; padding: 1rem; background: #333; color: #fff; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ali Imran Shah</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Ali Imran Shah, passionate about technology, web development, and creating modern solutions.
+       I love exploring trending ideas and turning them into functional projects.</p>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Trending Projects & Links</h2>
+    <a href="https://openai.com" target="_blank">ChatGPT by OpenAI</a>
+    <a href="https://vercel.com" target="_blank">Vercel - Modern Web Hosting</a>
+    <a href="https://github.com/trending" target="_blank">GitHub Trending Repositories</a>
+    <a href="https://nextjs.org" target="_blank">Next.js - React Framework</a>
+    <a href="https://tailwindcss.com" target="_blank">Tailwind CSS</a>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/mwkzvvgp" method="POST">
+        <label>Your Name:</label><br>
+        <input type="text" name="name" required><br><br>
+        <label>Your Email:</label><br>
+        <input type="email" name="email" required><br><br>
+        <label>Your Message:</label><br>
+        <textarea name="message" rows="5" required></textarea><br><br>
+        <button type="submit">Send Message</button>
+    </form>
+    <p>Or email me directly: <a href="mailto:ai6268332@gmail.com">ai6268332@gmail.com</a></p>
+</section>
+
+<footer>
+    <p>© 2025 Ali Imran Shah. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
